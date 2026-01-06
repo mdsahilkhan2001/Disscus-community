@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #5f60ee;
+  --color-secondary: #fad425;
+  --image-brand-gradient: linear-gradient(to right bottom, #4f46e5, #604be9, #7051ed, #7e57f2, #8b5df6);
+}
+
+@utility bg-brand-gradient {
+  background-image: var(--image-brand-gradient);
+}
+
+@layer base {
+  body {
+    @apply bg-gray-50 text-gray-900;
+  }
+}
