@@ -2,6 +2,10 @@
 
 ![Discuss Community Logo](frontend/src/assets/discuss_logo.png)
 
+# Deployement link
+
+#   https://disscus-community.netlify.app/
+
 ## Overview
 Discuss Community is a modern web application designed to facilitate discussions, verify community members, and share knowledge. It features a robust backend built with Django and a dynamic frontend powered by React.
 
